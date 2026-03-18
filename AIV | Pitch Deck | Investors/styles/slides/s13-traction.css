@@ -1,0 +1,38 @@
+/* ══════════════════════════════════════
+   S13 — TRACTION
+══════════════════════════════════════ */
+#s13 .trac-layout {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 0; flex: 1; margin-top: 20px;
+}
+#s13 .trac-l { padding-right: 44px; border-right: 1px solid var(--rule); display: flex; flex-direction: column; gap: 0; }
+#s13 .trac-r { padding-left: 44px; display: flex; flex-direction: column; gap: 0; }
+#s13 .tstat {
+  padding: 16px 0; border-bottom: 1px solid var(--rule);
+  display: grid; grid-template-columns: 120px 1fr; gap: 20px; align-items: start;
+}
+#s13 .tstat:last-child { border-bottom: none; }
+#s13 .tstat-n {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 36px; color: var(--acc); line-height: 1; letter-spacing: -.02em;
+}
+#s13 .tstat-l { font-size: 12.5px; font-weight: 500; color: var(--th); margin-bottom: 3px; }
+#s13 .tstat-d { font-size: 12px; color: var(--tb); line-height: 1.55; }
+#s13 .mile-row {
+  padding: 14px 0; border-bottom: 1px solid var(--rule);
+  display: grid; grid-template-columns: 14px 1fr; gap: 12px; align-items: start;
+}
+#s13 .mile-row:last-child { border-bottom: none; }
+#s13 .mile-dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--grn);
+  margin-top: 5px; box-shadow: 0 0 6px rgba(45,212,191,.3);
+}
+#s13 .mile-t { font-size: 12.5px; font-weight: 500; color: var(--th); margin-bottom: 3px; }
+#s13 .mile-b { font-size: 12px; color: var(--tb); line-height: 1.55; }
+#s13 .stage-live {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--grn); background: rgba(45,212,191,.08); border: 1px solid rgba(45,212,191,.2);
+  padding: 3px 9px; border-radius: 2px; margin-top: 6px;
+}
+#s13 .stage-live::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--grn); }
