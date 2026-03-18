@@ -1,0 +1,65 @@
+/* ══════════════════════════════════════
+   S3 — THE SOLUTION
+══════════════════════════════════════ */
+#s3 .sol-layout {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 0; flex: 1; margin-top: 20px;
+}
+#s3 .sol-l { padding-right: 44px; border-right: 1px solid var(--rule); display: flex; flex-direction: column; gap: 14px; }
+#s3 .sol-lede { font-size: 13px; color: var(--tb); line-height: 1.7; margin-bottom: 8px; }
+#s3 .sol-items { display: flex; flex-direction: column; gap: 0; }
+#s3 .si {
+  padding: 12px 0; border-bottom: 1px solid var(--rule);
+  display: grid; grid-template-columns: 28px 1fr; gap: 12px; align-items: start;
+}
+#s3 .si:last-child { border-bottom: none; }
+#s3 .si-ico {
+  width: 28px; height: 28px; border-radius: 2px; background: var(--acc3);
+  border: 1px solid rgba(7,78,220,.15);
+  display: flex; align-items: center; justify-content: center;
+}
+#s3 .si-ico svg { width: 13px; height: 13px; fill: none; stroke: var(--acc); stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+#s3 .si-t { font-size: 12.5px; font-weight: 500; color: var(--th); margin-bottom: 2px; }
+#s3 .si-b { font-size: 11.5px; color: var(--tb); line-height: 1.6; }
+#s3 .badges { display: flex; gap: 8px; margin-top: auto; }
+#s3 .badge {
+  font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: .14em; text-transform: uppercase;
+  border: 1px solid var(--rule); color: var(--tm); padding: 4px 10px; border-radius: 2px;
+}
+#s3 .sol-r { padding-left: 44px; display: flex; align-items: center; justify-content: center; }
+#s3 .hex-diagram { position: relative; width: 380px; height: 380px; }
+#s3 .hex-center {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px; height: 90px; border-radius: 50%;
+  background: rgba(7,78,220,.08); border: 1.5px solid rgba(7,78,220,.3);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  box-shadow: 0 0 40px rgba(7,78,220,.12);
+}
+#s3 .hex-center svg { width: 24px; height: 24px; fill: none; stroke: var(--acc); stroke-width: 1.5; }
+#s3 .hex-center-label {
+  font-family: 'DM Mono', monospace; font-size: 7.5px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--acc); text-align: center; line-height: 1.3;
+}
+#s3 .hex-orbit {
+  position: absolute; top: 50%; left: 50%;
+  width: 300px; height: 300px; border-radius: 50%;
+  border: 1px dashed rgba(7,78,220,.12);
+  transform: translate(-50%, -50%);
+}
+#s3 .hex-node {
+  position: absolute; background: var(--p1); border: 1px solid var(--rule);
+  border-radius: 2px; padding: 10px 14px; text-align: center;
+  width: 110px; transform: translate(-50%, -50%);
+}
+#s3 .hex-node-num {
+  font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .16em; color: rgba(7,78,220,.4); margin-bottom: 4px;
+}
+#s3 .hex-node-name {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 16px; color: var(--th);
+}
+#s3 .hex-connector {
+  position: absolute; top: 50%; left: 50%;
+  width: 150px; height: 1px; background: linear-gradient(to right, rgba(7,78,220,.25), transparent);
+  transform-origin: left center;
+}
