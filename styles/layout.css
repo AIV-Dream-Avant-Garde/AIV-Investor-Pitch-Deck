@@ -32,7 +32,7 @@
 .sh-logo::after {
   content: '';
   width: 5px; height: 5px; border-radius: 50%;
-  background: var(--acc); box-shadow: 0 0 8px rgba(7,78,220,.5); flex-shrink: 0;
+  background: var(--acc); box-shadow: 0 0 8px rgba(75,114,255,.5); flex-shrink: 0;
 }
 .sh-right { display: flex; align-items: center; gap: 24px; }
 .sh-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; color: var(--tm); }

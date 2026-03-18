@@ -17,7 +17,7 @@
 #s-team .tf-header { display: flex; align-items: center; gap: 14px; }
 #s-team .tf-avatar {
   width: 52px; height: 52px; border-radius: 50%; flex-shrink: 0;
-  background: var(--acc3); border: 1.5px solid rgba(7,78,220,.3);
+  background: var(--acc3); border: 1.5px solid rgba(75,114,255,.3);
   display: flex; align-items: center; justify-content: center;
 }
 #s-team .tf-avatar svg { width: 22px; height: 22px; fill: none; stroke: var(--acc); stroke-width: 1.5; }

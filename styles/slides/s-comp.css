@@ -38,7 +38,7 @@
 }
 #s-comp .ct-row:last-child { border-bottom: none; }
 #s-comp .ct-row.aiv-row {
-  background: rgba(7,78,220,.04); border-left: 2px solid var(--acc);
+  background: rgba(75,114,255,.04); border-left: 2px solid var(--acc);
 }
 #s-comp .ct-name {
   padding: 9px 12px; display: flex; flex-direction: column; gap: 2px;
@@ -74,7 +74,7 @@
 /* positioning note */
 #s-comp .comp-note {
   display: flex; align-items: center; gap: 10px;
-  padding: 10px 14px; background: var(--acc3); border: 1px solid rgba(7,78,220,.2);
+  padding: 10px 14px; background: var(--acc3); border: 1px solid rgba(75,114,255,.2);
   border-radius: 2px;
 }
 #s-comp .cn-badge {

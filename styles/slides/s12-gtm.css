@@ -31,7 +31,7 @@
 #s12 .gc-sub { font-size: 12px; color: var(--tb); line-height: 1.65; flex: 1; }
 #s12 .gc-timeline {
   font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: .1em;
-  color: var(--acc); background: var(--acc3); border: 1px solid rgba(7,78,220,.2);
+  color: var(--acc); background: var(--acc3); border: 1px solid rgba(75,114,255,.2);
   padding: 3px 8px; border-radius: 2px; width: fit-content;
 }
 #s12 .gc-tag {
@@ -48,5 +48,5 @@
 #s12 .gtm-obj {
   margin-top: auto; padding-top: 12px; border-top: 1px solid var(--rule2);
   font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: .1em;
-  text-transform: uppercase; color: rgba(7,78,220,.4); text-align: center;
+  text-transform: uppercase; color: rgba(75,114,255,.4); text-align: center;
 }

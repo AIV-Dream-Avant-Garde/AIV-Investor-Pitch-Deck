@@ -28,6 +28,6 @@
 #s14 .reg-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
 #s14 .rtag {
   font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .1em; text-transform: uppercase;
-  border: 1px solid rgba(7,78,220,.2); color: var(--acc);
+  border: 1px solid rgba(75,114,255,.2); color: var(--acc);
   background: var(--acc3); padding: 3px 9px; border-radius: 2px;
 }

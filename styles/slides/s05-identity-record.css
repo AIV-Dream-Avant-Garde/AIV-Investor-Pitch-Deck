@@ -14,7 +14,7 @@
 #s5 .id-feature:last-child { border-bottom: none; }
 #s5 .id-f-ico {
   width: 36px; height: 36px; border-radius: 2px;
-  background: var(--acc3); border: 1px solid rgba(7,78,220,.15);
+  background: var(--acc3); border: 1px solid rgba(75,114,255,.15);
   display: flex; align-items: center; justify-content: center; flex-shrink: 0;
 }
 #s5 .id-f-ico svg { width: 16px; height: 16px; fill: none; stroke: var(--acc); stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
@@ -41,7 +41,7 @@
 }
 #s5 .dash-avatar {
   width: 32px; height: 32px; border-radius: 50%;
-  background: var(--acc3); border: 1.5px solid rgba(7,78,220,.3);
+  background: var(--acc3); border: 1.5px solid rgba(75,114,255,.3);
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
 }
